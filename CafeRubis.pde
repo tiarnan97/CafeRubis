@@ -10,9 +10,11 @@ void setup()
 }
 void draw()
 {
+ textSize(20);
  background(100);
  displayBill();
  line(300,500,300,50);
+ text("Cafe Rubis Till System",width/4,20);
 }
 
 void loadData()
@@ -37,9 +39,8 @@ void mousePressed()
 void displayBill()
 {
   fill(255);
-  textSize(20);
-  rect(50 + (width/2),60,260,420);
-  text("Cafe Rubis Till System",width/4,20);
+   rect(50 + (width/2),60,260,420);
+  
 }
 
 void PrintProducts()
