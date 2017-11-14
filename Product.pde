@@ -3,6 +3,8 @@ class Product
   float Price;
   String Name;
   
- // Product(TableRow,)
-  
+ Product(TableRow row)
+  {
+    //name = row.toString("Name");
+  }
 }

@@ -4,12 +4,14 @@ void setup()
 {
   size(800,600);
   loadData();
- // listData();
+  //listData();
+  //printProducts();
 }
 void draw()
 {
  background(100);
  displayBill();
+ line(300,500,300,50);
 }
 void loadData()
 {
