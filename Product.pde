@@ -1,10 +1,17 @@
-class Product
+/*class Product
 {
   float Price;
   String Name;
   
  Product(TableRow row)
   {
-    //name = row.toString("Name");
+     Name = row.getString("Name");
+     Price = row.getFloat("Price");
   }
+  String toString()
+  {
+    return name + "," + price;
+  }
+  
 }
+*/
