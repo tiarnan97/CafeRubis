@@ -2,6 +2,7 @@ class Product
 {
   float Price;
   String Name;
+  float Total;
   
  Product(TableRow row)
   {
