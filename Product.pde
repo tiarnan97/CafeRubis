@@ -1,4 +1,4 @@
-/*class Product
+class Product
 {
   float Price;
   String Name;
@@ -10,8 +10,7 @@
   }
   String toString()
   {
-    return name + "," + price;
+    return Name + "," + Price;
   }
   
 }
-*/
